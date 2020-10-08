@@ -1,0 +1,93 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+section {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/* center section */
+.section-center {
+    border-radius: 5px;
+    border: solid 0.5px rgb(204, 204, 204);
+    box-shadow: 1px 1px 2px rgb(197, 197, 197);
+    width: 450px;
+    padding: 1rem;
+    margin: .5rem auto 0 auto;
+
+}
+
+/* title Q&A */
+.title {
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
+.question-title {
+    position: relative;
+    top: 8px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* button Q */
+.btn-question {
+    color: goldenrod;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn-question:hover {
+    transform: rotate(-90deg);
+}
+
+/* answer text */
+.question-text {
+    padding: .5rem 0 0 0 ;
+    color: #333;
+    display: none;
+}
+
+.show-text .question-text {
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline-block;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
