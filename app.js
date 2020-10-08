@@ -22,6 +22,6 @@ answers.forEach(function(answer){
                 exBtn.classList.remove('show-text');
             }
         })
-        answer.classList.toggle('show-text');g
+        answer.classList.toggle('show-text');
     })
 });
