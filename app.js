@@ -18,7 +18,7 @@ answers.forEach(function(answer){
     btn.addEventListener('click', function(){
         answers.forEach(function(exBtn){
             //console.log(btn)
-            if(btn !== answer){
+            if(exBtn !== answer){
                 exBtn.classList.remove('show-text');
             }
         })
